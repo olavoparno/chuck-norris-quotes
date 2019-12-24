@@ -24,6 +24,9 @@ function RHKContainer() {
     }
   };
 
+  /**
+   * JUST COMMENT THE LINE BELOW IF LOGGING IS NOT NEEDED
+   */
   useLog("RHKContainer", state);
 
   return { rhkState: state, rhkActions: actions };

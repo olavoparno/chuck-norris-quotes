@@ -30,6 +30,9 @@ function PlatformContainer() {
 
   const platformState = { isMobile: isMobileState, isLoading: isLoadingState };
 
+  /**
+   * JUST COMMENT THE LINE BELOW IF LOGGING IS NOT NEEDED
+   */
   useLog("PlatformContainer", platformState);
 
   return { platformState, platformActions };
