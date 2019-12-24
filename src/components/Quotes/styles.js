@@ -20,9 +20,9 @@ export const QuotesSectionStyled = styled.section`
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
-  font-size: 1.8rem;
-  padding-top: ${({ isMobile }) => (isMobile ? "7rem" : "unset")};
+  font-size: 1.5rem;
   padding-left: 3rem;
+  max-height: 55%;
 `;
 
 export const QuotesAsideStyled = styled.aside`

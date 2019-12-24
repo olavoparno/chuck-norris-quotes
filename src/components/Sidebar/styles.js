@@ -124,7 +124,7 @@ export const ButtonCategoriesStyled = styled.button`
   right: 0;
   top: 5.5rem;
   width: 5rem;
-  margin: 0 2rem;
+  margin: 0 1rem;
   z-index: 1;
   &:hover {
     border-left: none;
