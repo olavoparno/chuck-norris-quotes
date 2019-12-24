@@ -6,11 +6,11 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/60025a70e05c9f133e0e/maintainability)](https://codeclimate.com/github/olavoparno/chuck-norris-quotes/maintainability)
 
-## Motivation
+### Motivation
 
 - Chuck Norris Quotes project for Guia Bolso front-end challenge.
 
-## Online Demo
+### Online Demo
 
 - Click here to get quotes -> [Chock Norris Quotes](https://roundhousekick.netlify.com/)
 
