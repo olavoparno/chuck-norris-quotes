@@ -2,3 +2,4 @@ theme: jekyll-theme-minimal
 title: Chuck Norris Quotes
 description: Chuck Norris Quotes just for kicks!
 logo: src/assets/chuck-norris.jpg
+show_downloads: true
