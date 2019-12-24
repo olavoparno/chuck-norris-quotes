@@ -1,8 +1,8 @@
 {
-  "name": "chuck-norris-quotes-just-for-kicks",
+  "name": "chuck-norris-quotes",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Chuck Norris Quotes just for kicks!",
+  "keywords": ["react","unstated-next","hooks", "chuck-norris", "chuck-norris-jokes", "styled-components"],
   "main": "src/index.jsx",
   "dependencies": {
     "deep-object-diff": "1.1.0",
