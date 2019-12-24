@@ -2,7 +2,9 @@
 
 [![Interfaced with React](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/026/square_128/react.png "Interfaced with React")](https://reactjs.org/)
 [![Built with Styled Components](https://jpoissonnier.gallerycdn.vsassets.io/extensions/jpoissonnier/vscode-styled-components/0.0.26/1553589418918/Microsoft.VisualStudio.Services.Icons.Default "Built with Styled Components")](https://styled-components.com/)
-[![Unstated-Next](https://raw.githubusercontent.com/thejameskyle/unstated/master/logo.png "Unstated Next")](https://github.com/jamiebuilds/unstated-next/)
+[![Unstated-Next](https://img.stackshare.io/service/10015/Screen_Shot_2018-12-07_at_10.23.58_AM.png "Unstated Next")](https://github.com/jamiebuilds/unstated-next/)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/60025a70e05c9f133e0e/maintainability)](https://codeclimate.com/github/olavoparno/chuck-norris-quotes/maintainability)
 
 ## Motivation
 
