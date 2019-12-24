@@ -28,7 +28,7 @@
    - Great lib to dive into object differences
 3. [styled-components](https://github.com/styled-components/styled-components) - [bundlephobia](https://bundlephobia.com/result?p=styled-components@4.4.1)
    - Chosen due to its simplicity in delivering independent and reusable styled components and its powerful ability to understand SASS like syntax
-4. [unstated-next](https://github.com/jamiebuilds/unstated-next/)
+4. [unstated-next](https://github.com/jamiebuilds/unstated-next/) - [bundlephobia](https://bundlephobia.com/result?p=unstated-next@1.1.0)
    - Incredibly small state management lib using hooks
 
 ### TODO
