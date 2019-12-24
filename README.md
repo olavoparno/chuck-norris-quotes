@@ -12,7 +12,7 @@
 
 ## Online Demo
 
-- Click here to get quotes -> [Todo Man](https://roundhousekick.netlify.com/)
+- Click here to get quotes -> [Chock Norris Quotes](https://roundhousekick.netlify.com/)
 
 ### Setup Development Environment
 
