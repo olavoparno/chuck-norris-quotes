@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
-import {
-  SidebarStyled,
-  ListStyled,
-  ListItemStyled,
-  ButtonCategoriesStyled
-} from "./styles";
+import { SidebarStyled, ListStyled, ButtonCategoriesStyled } from "./styles";
 import { Store } from "../../store";
-import { capitalizeFLetter } from "../../utils/capitalize";
 import chuckNorrisImg from "../../assets/chuck-norris.jpg";
 import { Logo } from "../Logo";
+import { mayIRender, CategoriesList } from "./helper";
 
-function Sidebar(props) {
+function Sidebar() {
   const {
     rhkState,
     rhkActions,
@@ -65,25 +60,6 @@ function Sidebar(props) {
     }
   }
 
-  function CategoriesList() {
-    return categories.map(item => {
-      return (
-        <ListItemStyled
-          key={item}
-          id={item}
-          yGutter="1rem"
-          xGutter="1rem"
-          active={item === currentCategory}
-          onClick={handleCategoryClick}
-        >
-          {capitalizeFLetter(item)}
-        </ListItemStyled>
-      );
-    });
-  }
-
-  const mayIRender = array => Array.isArray(array) && array.length > 0;
-
   return (
     mayIRender(categories) && (
       <SidebarStyled
@@ -100,7 +76,11 @@ function Sidebar(props) {
           alt="logo-image"
         />
         <ListStyled isMobile={isMobile} direction="column" xGutter="0rem">
-          <CategoriesList />
+          <CategoriesList
+            categories={categories}
+            handleCategoryClick={handleCategoryClick}
+            currentCategory={currentCategory}
+          />
         </ListStyled>
         {sidebarAside && (
           <ButtonCategoriesStyled onClick={() => setSidebarAside(false)}>
